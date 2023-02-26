@@ -1,5 +1,6 @@
 import React from 'react';
 import Aside from '../../components/Aside';
+import Footer from '../../components/Footer';
 import Post from '../../components/Post';
 
 type Props = {};
@@ -13,7 +14,10 @@ const Feed = (props: Props) => {
           <Post />
           <Post />
         </div>
-        <Aside />
+        <div className="flex flex-col">
+          <Aside />
+          <Footer />
+        </div>
       </div>
     </div>
   );
