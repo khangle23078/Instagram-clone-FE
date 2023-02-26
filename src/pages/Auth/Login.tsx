@@ -75,9 +75,9 @@ const Login = (props: Props) => {
             </Link>
           </div>
         </div>
-        <div className="flex justify-center gap-2 rounded-md border-[1px] bg-white py-6 px-[79px]">
+        <div className="flex justify-center rounded-md border-[1px] bg-white py-6 px-[79px]">
           <p className="text-sm">You don't an account?</p>
-          <Link to={'/signup'} className="text-sm font-medium text-[#0095F6]">
+          <Link to={'/register'} className="text-sm font-medium text-[#0095F6]">
             Sign up
           </Link>
         </div>
