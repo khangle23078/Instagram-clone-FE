@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import Hero from './../../assets/images/frames.png';
-import LogoImg from './../../assets/images/Logo.png';
+import LogoImg from './../../assets/images/LOGO.png';
 import Google from './../../assets/images/google.png';
 type Props = {};
 
