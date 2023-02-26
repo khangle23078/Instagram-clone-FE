@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import Hero from './../../assets/images/frames.png';
-import Logo from './../../assets/images/Logo.png';
+import LogoImg from './../../assets/images/Logo.png';
 import Google from './../../assets/images/google.png';
 type Props = {};
 
@@ -30,7 +30,7 @@ const Login = (props: Props) => {
       <div className="flex flex-col gap-[10px]">
         <div className="form-main rounded-md border-[1px] bg-white">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <img src={Logo} className="py-[25px] px-[83px]" />
+            <img src={LogoImg} className="py-[25px] px-[83px]" />
             <div className="mx-[41px] mb-[15px]">
               <input
                 type="text"
