@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+@layer components {
+  .input-text {
+    @apply h-[39px] w-[268px] rounded-[3px] border-2 border-[#DBDBDB] p-[12px] text-xs placeholder-[#959595] placeholder:text-xs;
+  }
+}
