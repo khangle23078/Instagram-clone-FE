@@ -10,7 +10,7 @@ const Login = (props: Props) => {
   const {
     register,
     handleSubmit,
-    formState: { errors, isDirty, isLoading },
+    formState: { errors, isDirty },
   } = useForm({
     defaultValues: {
       email: '',
